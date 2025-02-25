@@ -1,0 +1,325 @@
+* {
+    margin: 0px;
+    padding: 0px;
+} 
+
+html{
+         font-size: 68.6%;
+         font-size: 1rem;
+}
+
+/* login page */
+#navbar {
+    display: flex;
+   
+    background: url(background222.jpg) no-repeat center center/cover;
+    position: relative;
+
+    
+    height: 37vh;
+    width: 100vw;
+}
+
+
+
+
+#navbar a {
+    color: white;
+    display: flex;
+    font-size: 2.2rem;
+    text-decoration: none;
+
+
+
+}
+
+
+#navbar a:hover {
+    background-color: rgb(67, 50, 50);
+    border-radius: 1rem;
+}
+
+
+/* heading2 */
+/* #heading2 {
+    display: flex;
+    position: absolute;
+    top: 210px;
+    left: 570px;
+    font-family: "Calligraffitti", cursive;
+    color: seagreen;
+    font-size: 252rem;
+} */
+
+
+/* upper-box */
+#box {
+    border: 0.2rem solid black;
+    height: 31.0rem;
+    position: absolute;
+    top: 31.0rem;
+    left: 66.0rem;
+}
+
+#box img {
+    height: 250px;
+}
+
+#box:hover {
+    box-shadow: 5px 10px 25px 15px rgb(181, 181, 209);
+}
+
+
+
+
+
+.hidden {
+    display: none;
+}
+
+
+#hoverable1 {
+    font-size: 1.7rem;
+    position: absolute;
+    top: 33.799rem;
+    left: 81.9rem;
+
+}
+
+
+#hoverable2 {
+    font-size: 1.7rem;
+    position: absolute;
+    top: 33.799rem;
+    left: 91.4rem;
+
+}
+
+
+#hoverable3 {
+    font-size: 1.7rem;
+    position: absolute;
+    top: 33.799rem;
+    left: 102.2rem;
+
+}
+
+
+
+/* taki mere saare boxes sahi jagah pe rahe  */
+.hidden {
+    position: absolute;
+    top: 10.7rem;
+    left: 17.9rem;
+}
+
+
+/* jee, neet , gate ke upar jo word likha hua hai uske liye  */
+.upward {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.0rem;
+    margin: 0.9rem 1.0rem;
+}
+
+
+
+
+.Container {
+    display: flex;
+    justify-content: center;
+}
+
+.Competition-container {
+    border: 2px solid #000;
+    padding: 17px;
+    margin: 15px auto;
+    /* Center the container horizontally */
+    width: 46.0rem;
+    /* Adjust width as needed */
+    display: flex;
+    justify-content: space-between;
+    /* Adjust alignment as needed */
+    border-radius: 1.5rem;
+    background-color: rgb(219, 241, 234);
+
+}
+
+.Competition {
+    margin: 0.6rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    /* Smooth transition for background color change */
+}
+
+.Competition:hover {
+    background-color: #a2d5e1;
+    /*Change background color on hover */
+    border-radius: 0.6rem;
+}
+
+
+/* innerBox*/
+#box{
+    background-color: white;
+}
+#box p {
+    border: 2px solid black;
+    position: absolute;
+    height: 12.0rem;
+    width: 15.0rem;
+    left: 1.2rem;
+    top: 17.5rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    
+
+}
+
+
+#box p:hover {
+    box-shadow: 5px 10px 25px 15px rgb(225, 156, 217);
+}
+
+#box ul li {
+    list-style-type: none;
+
+
+}
+
+#box ul li a {
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    left: 40px;
+    top: 60px;
+    font-size: 1.2rem;
+}
+
+#box ul li a :hover{
+   color: #7fffd4;
+  
+  
+}
+
+
+
+/* quote */
+.quote {
+    position: relative;
+    top: 8rem;
+    left: -10.5rem;
+    color: #2d2c2c;
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: "Madimi One", sans-serif;
+
+}
+
+body{
+    background-color: white;
+}
+
+
+
+
+/* client-section */
+#client-section {
+    height: 35.5rem;
+}
+
+
+
+#clients {
+   
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 93.0rem;
+    left: 83.0rem; 
+
+}
+
+
+#clients img {
+    height: 5.1rem;
+}
+
+/* our client */
+.Murder {
+    position: absolute;
+    top: 85.5rem;
+    left: 86.5rem;
+    font-size: 3.2rem;
+}
+
+
+/* contact us */
+.kill {
+    position: absolute;
+    top: 33.4rem;
+    left: 86.5rem;
+    font-size: 3.2rem;
+}
+
+
+/* contact section */
+#contact{
+    position: relative; 
+}
+
+#contact-box{
+    position: absolute;
+    top: 42.5rem;
+    left: 78.5rem;
+
+}
+
+.form-group input,textarea{
+    display: flex;
+    width: 25.3rem;
+    padding: 5px 45px;
+}
+
+
+/* horizontal lines  */
+.new3 {
+    border-top: 1px dotted red;
+    position: absolute;
+    top: 80.4rem;
+    width: 100%;
+  }
+
+.new2 {
+    border-top: 1px dotted red;
+    position: absolute;
+    top: 103.4rem;
+    width: 100%;
+  }
+
+.new10 {
+    border-top: 1px dotted red;
+    position: absolute;
+    top: 141.4rem;
+    width: 100%;
+}
+
+
+/* @media(max-width:998rem){
+    html{
+            font-size: 55%;        
+    }
+}
+
+@media(max-width:768rem){
+    html{
+  font-size: 45%;
+    }
+} */
+    
+
+
+
